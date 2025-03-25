@@ -1,0 +1,27 @@
+  p {
+      font-family: Arial;
+  }
+
+  .price {
+      font-size: 50px;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+
+  .currency {
+      color: gray;
+      margin-left: 10px;
+  }
+
+  .difference {
+      color: green;
+      font-size: 20px;
+  }
+
+  .time-passed {
+      color: gray;
+  }
+
+  .change-during-time {
+      color: red;
+  }
