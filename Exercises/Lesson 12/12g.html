@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .info {
+        width: 200px;
+      }
+
+      .profile-pic {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-right: 15px;
+      }
+
+      .name {
+        font-family: Arial;
+        font-weight: bold;
+        line-height: 20px;
+      }
+
+      .description {
+        color: gray;
+        font-family: Arial;
+        line-height: 20px;
+      }
+
+      button {
+        color: white;
+        background-color: rgb(29, 155, 240);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <div class="row">
+        <img src="images/cat.jpg" class="profile-pic">
+        <div class="info">
+          <div class="name">oliver</div>
+          <div class="description">the cat</div>
+          <div class="description">Popular</div>
+        </div>
+        <button>Follow</button>
+      </div>
+
+      <div class="row">
+        <img src="images/cat2.jpg" class="profile-pic">
+        <div class="info">
+          <div class="name">Mimi</div>
+          <div class="description">Sleepy Cat</div>
+          <div class="description">Popular</div>
+        </div>
+        <button>Follow</button>
+      </div>
+
+      <div class="row">
+        <img src="images/dog.jpg" class="profile-pic">
+        <div class="info">
+          <div class="name">Rex</div>
+          <div class="description">Happy Bulldog</div>
+          <div class="description">Popular</div>
+        </div>
+        <button>Follow</button>
+      </div>
+    </div>
+  </body>
+</html>
