@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .tweet {
+        display: flex;
+      }
+
+      .profile-picture-column {
+        margin-right: 10px;
+      }
+
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+
+      .tweet-header {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .tweet-author {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+
+      .tweet-author-handle {
+        color: rgb(120, 120, 120);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="tweet">
+      <div class="profile-picture-column">
+        <img class="profile-picture" src="images/cat.jpg">
+      </div>
+      <div class="tweet-column">
+        <div class="tweet-header">
+          <div class="tweet-author">supersimple.dev</div>
+          <div class="tweet-author-handle">@SuperSimpleDev</div>
+        </div>
+        <div class="tweet-content">What is backend web development? A complete overview. New video is up!</div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+
+    </div>
+  </body>
+</html>
