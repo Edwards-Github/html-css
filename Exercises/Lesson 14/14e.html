@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .flexbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+      }
+
+      .profile {
+        display: flex;
+        align-items: center;
+      }
+
+      .profile-picture {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-left: 100px;
+        margin-right: 10px;
+      }
+
+      .name {
+        font-family: Arial;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body style="height: 3000px;">
+    <div class="flexbox">
+      <div class="profile">
+        <img class="profile-picture" src="images/cat.jpg">
+        <div class="name">Oliver Cat</div>
+      </div>
+
+      <div>
+        <button class="add-friend">Add Friend</button>
+        <button class="message">Message</button>
+      </div>
+    </div>
+  </body>
+</html>
