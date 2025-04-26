@@ -3,14 +3,24 @@
 <html>
   <head>
     <style>
-      .flexbox {
+      button {
+        padding: 8px 10px;
+        border: none;
+        border-radius: 6px;
+      }
+
+      .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px 50px;
       }
 
-      .profile {
+      .left-section {
         display: flex;
         align-items: center;
       }
@@ -28,19 +38,31 @@
         font-family: Arial;
         font-weight: bold;
       }
+
+      .add-friend-button {
+        color: white;
+        background-color: rgb(25, 107, 184);
+        padding: 8px 12px;
+        margin-right: 3px;
+      }
+
+      .message-button {
+        background-color: rgb(224, 224, 224);
+        font-weight: bold;
+      }
     </style>
   </head>
 
   <body style="height: 3000px;">
-    <div class="flexbox">
-      <div class="profile">
+    <div class="header">
+      <div class="left-section">
         <img class="profile-picture" src="images/cat.jpg">
         <div class="name">Oliver Cat</div>
       </div>
 
-      <div>
-        <button class="add-friend">Add Friend</button>
-        <button class="message">Message</button>
+      <div class="right-section">
+        <button class="add-friend-button">Add Friend</button>
+        <button class="message-button">Message</button>
       </div>
     </div>
   </body>
